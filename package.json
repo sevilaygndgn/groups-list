@@ -10,6 +10,7 @@
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
+    "vuelidate": "^0.7.7",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
@@ -17,7 +18,10 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "sass": "^1.54.3",
+    "sass-loader": "^13.0.2",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.74.0"
   },
   "browserslist": [
     "> 1%",

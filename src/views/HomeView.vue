@@ -1,18 +1,14 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <multiple-choice></multiple-choice>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import MultipleChoice from "@/components/MultipleChoice.vue";
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  components: { MultipleChoice },
+  name: "HomeView",
+};
 </script>
+<style lang="scss" scoped>
+@import "../assets/reset.scss";
+</style>
